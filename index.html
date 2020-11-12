@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<header> 
-		<div class="container">
+		<div class="container" id="home">
 			<div class="heading clearfix">
-				<img src="img/logo.png" alt="Golden" class="logo">
+				<img src="img/logo.png" alt="Golden"  class="logo">
 				<nav>
 					<ul class="menu">
 						<li>
-							<a href="#">Home</a>
+							<a href="#home">Home</a>
 						</li>
 						<li>
 							<a href="#services" >Services</a>
@@ -88,14 +89,12 @@
 			</div>
 		</div>
 	</section>	
-
-	<section>
+	<section id="about">
 		<div class="container">
 				<div class="title_about">
 					<h2><a name="about"></a>About us</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, repudiandae.</p>
 				</div>
-
 			<div class="about_items">
 				<div class="container_aboutl">
 					<div class="blokl div_about">
@@ -122,8 +121,6 @@
 							sint adipisci ipsum nostrum animi voluptates.</p>
 					</div>         
 				 </div>
-			
-			
 				 <div class="container_aboutl">
 			
 					<div class="blokl div_about">
@@ -137,7 +134,6 @@
 							<img src="img/about3.jpg" alt="about">
 						</div>              
 				 </div>
-			
 				 <div class="container_aboutr">
 					<div class="imgs div_about">
 						<img src="img/about4.jpg" alt="about">
@@ -153,13 +149,12 @@
 			</div>
 		</div>
 	</section>
-
-
-	<footer>
+	<footer id="contact">
   		<div class="container"><a name="contact"></a>
 			<p>© Copyright 2020. All right reserved</p>
-			
 		</div>
 	</footer>
+	<script src="js/main.js"></script>
+	<a href="#" class="scrollup">Наверх</a>
 </body>
 </html>
