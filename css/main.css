@@ -214,7 +214,7 @@ h1 {
 	right:100px;
 	display:none;
 	text-indent:-9999px;
-	background: url('/img/top.png') no-repeat;
+	background: url('../img/top.png') no-repeat;
 }
  footer {
 	font-size: 14px;
